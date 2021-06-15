@@ -9,11 +9,14 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; ^ Control
 ; + Shift
 
-; VIM MOVEMENT
-
-; disable alt press (key irgednwas)
+; TODO: disable alt press (key irgednwas)
 ;!::
 ;return
+
+, disable alt space
+!Space::return
+
+; VIM MOVEMENT
 
 !h::
 Send {Left}
