@@ -112,3 +112,11 @@ return
 Send #^{right}
 return
 
+; minimize and maximize windows
+#^j::
+WinMinimize, A
+return
+
+#^k::
+WinMaximize, A
+return
